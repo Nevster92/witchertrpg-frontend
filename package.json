@@ -1,0 +1,36 @@
+{
+  "name": "gyakorlo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
+  },
+  "dependencies": {
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.2.96",
+    "pinia": "^2.1.6",
+    "sockjs": "^0.3.24",
+    "sockjs-client": "^1.6.1",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.2",
+    "vuetify": "^3.3.2",
+    "webstomp-client": "^1.2.6"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.2.96",
+    "@tsconfig/node18": "^2.0.1",
+    "@types/node": "^18.16.8",
+    "@types/sockjs-client": "^1.5.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/tsconfig": "^0.4.0",
+    "material-design-icons-iconfont": "^6.7.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "~5.0.4",
+    "vite": "^4.3.5",
+    "vue-tsc": "^1.6.4"
+  }
+}

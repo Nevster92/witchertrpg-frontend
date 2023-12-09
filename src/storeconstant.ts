@@ -1,0 +1,1 @@
+export const PASSWORD_MAX_CHARACTER = 12;
